@@ -5925,5 +5925,11 @@ body #products #produitsRecents .col-lg-4 img {
   background-size: cover;
   width: 100%;
 }
+body #Banner {
+  background-image: url("../../public/img/cta-bg.jpg");
+  background-position: center;
+  height: 550px;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
