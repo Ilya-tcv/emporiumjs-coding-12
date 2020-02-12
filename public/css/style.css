@@ -5918,5 +5918,12 @@ body #products .row #clothes {
   height: 100%;
   background-size: cover;
 }
+body #products .row div {
+  border: solid 5px white;
+}
+body #products #produitsRecents .col-lg-4 img {
+  background-size: cover;
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
