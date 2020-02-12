@@ -5931,5 +5931,8 @@ body #Banner {
   height: 550px;
   background-size: cover;
 }
+body #learnMore .container-fluid .row .col-lg-4 {
+  border: solid 15px white;
+}
 
 /*# sourceMappingURL=style.css.map */
