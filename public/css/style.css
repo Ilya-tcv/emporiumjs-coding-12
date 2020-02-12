@@ -5900,5 +5900,23 @@ readers do not read off random characters that represent icons */
 body {
   font-family: "Poppins", sans-serif;
 }
+body #shopBanner {
+  background-color: #f3f3f3;
+}
+body #products .row #living {
+  background-image: url("../../public/img/services/service-1.jpg");
+  height: 100%;
+  background-size: cover;
+}
+body #products .row #sale {
+  background-image: url("../../public/img/services/service-2.jpg");
+  height: 100%;
+  background-size: cover;
+}
+body #products .row #clothes {
+  background-image: url("../../public/img/services/slider-3.jpg");
+  height: 100%;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
