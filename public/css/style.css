@@ -5931,8 +5931,15 @@ body #Banner {
   height: 550px;
   background-size: cover;
 }
-body #learnMore .container-fluid .row .col-lg-4 {
-  border: solid 15px white;
+body #learnMore .container-fluid .row div {
+  border: solid 10px white;
+}
+body #footer {
+  background-color: #343a36;
+}
+body #footer .copyright {
+  height: 10vh;
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
