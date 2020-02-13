@@ -5931,6 +5931,10 @@ body #Banner {
   height: 550px;
   background-size: cover;
 }
+body #caroussel .col-lg-3 img {
+  background-size: cover;
+  width: 100%;
+}
 body #learnMore .container-fluid .row div {
   border: solid 10px white;
 }
