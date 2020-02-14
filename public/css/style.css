@@ -5901,9 +5901,15 @@ body {
   font-family: "Poppins", sans-sherif;
 }
 body #monModal {
-  top: 40vh;
-  left: 25vh;
-  width: 70%;
+  height: 50%;
+  width: 75%;
+  margin: auto;
+  position: inherit;
+  background-color: lightgrey;
+  border: solid 1px black;
+}
+body #monModal input {
+  height: max-content;
 }
 body #shopBanner {
   background-color: #f3f3f3;
