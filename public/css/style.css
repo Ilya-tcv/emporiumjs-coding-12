@@ -5898,7 +5898,12 @@ readers do not read off random characters that represent icons */
   src: url("../../public/fonts/Poppins/Poppins-Regular.ttf");
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-sherif;
+}
+body #monModal {
+  top: 40vh;
+  left: 25vh;
+  width: 70%;
 }
 body #shopBanner {
   background-color: #f3f3f3;
