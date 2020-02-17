@@ -17,6 +17,8 @@ let closeModal = document.getElementsByClassName("close")[0]
 btnBlanc.addEventListener("click", () =>{
     body.classList.add("bg-blanc")
     body.classList.remove("bg-noir")
+    navbar.classList.remove('bg-noir')
+    navbar.classList.add('bg-blanc')
     body.style.color = "black"
     p.style.color = "black"
     
@@ -37,6 +39,8 @@ btnBlanc.addEventListener("click", () =>{
 btnNoir.addEventListener("click", () =>{
     body.classList.remove("bg-blanc")
     body.classList.add("bg-noir")
+    navbar.classList.remove('bg-blanc')
+    navbar.classList.add('bg-noir')
     body.style.color = "white"
     p.style.color = "black"
     
@@ -73,7 +77,8 @@ var sticky = navbar.offsetTop;
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
-  } else {
+
+} else {
     navbar.classList.remove("sticky");
   }
 }
