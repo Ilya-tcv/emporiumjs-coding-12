@@ -15,4 +15,4 @@ Un Carousel en JS qui permet de voir les differents produits populaires. On a ra
 
 # EMPORIUM
 
-Ce projet est disponible sur GitHub à l'adresse : 
+Ce projet est disponible sur GitHub à l'adresse : https://github.com/Ilya-tcv/emporiumjs-coding-12
