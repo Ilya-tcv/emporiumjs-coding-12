@@ -63,6 +63,21 @@ btnConnect.addEventListener("click", () => {
     })
 })
 
+// Sticky top NAVBAR
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.querySelector('header')
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
 
 // --- CAROUSEL --- //
 // variables
@@ -70,6 +85,7 @@ btnConnect.addEventListener("click", () => {
 let carSwitch = document.querySelectorAll('i.fa-dot-circle')
 let carContent = document.querySelectorAll('div.car')
 
+// fonctionnalités
 carSwitch[0].addEventListener("click", () => {
     for (let i = 0; i < 7; i++) {
         carContent[i].classList.remove('d-none')
